@@ -85,8 +85,8 @@
 		</div>
 		<div class="calculator">
 			<form action="" method="POST">
-				<input type="text" name="first_input" placeholder="First Number Here" size="20" />&nbsp;&nbsp;&nbsp;
-				<input type="text" name="second_input" placeholder="Second Number Here" size="20" />&nbsp;&nbsp;&nbsp;
+				<input type="number" name="first_input" placeholder="First Number Here" size="20" />&nbsp;&nbsp;&nbsp;
+				<input type="number" name="second_input" placeholder="Second Number Here" size="20" />&nbsp;&nbsp;&nbsp;
 				<select name="function">
 					<option>Add</option>
 					<option>Subtract</option>
@@ -94,7 +94,7 @@
 					<option>Divide</option>
 					<option>Square</option>
 					<option>Square Root</option>
-				</select><br><br>
+				</select><br><br><input type="reset" value="Reset">
 				<input type="submit" name="submit" value="Submit" />
 			</form>
 			<?php
@@ -111,6 +111,8 @@
 						die("<br><br>Please Enter The Second Number ^_^");
 					}
 
+					/*
+
 					if (strchr($input_1, "&gt;")) {
 						die("<br><br>You Aren't Allowed To Use > In The Please Of Number");
 					}
@@ -126,6 +128,8 @@
 					if (strchr($input_2, "&lt;")) {
 						die("<br><br>You Aren't Allowed To Use < In The Place Of Number");
 					}
+
+					*/
 
 					switch ($operator) {
 						case 'Add':
