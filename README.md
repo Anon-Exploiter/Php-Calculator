@@ -8,8 +8,8 @@
         <li>Subtracting</li>
         <li>Multiplying</li>
         <li>Dividing</li>
-        <li>If User Type Any Alphabet It Says: I Created Calculator For Adding, Subtracting, Multiplying, Dividing Numbers Not Alphabets -_-</li>
-        <li>If User's Input Is < 9 It Says: Go Buy A Calculator Please. Its A Free Calculator You Cant Use More then 9 Digits -_-</li>
+        <li>Square</li>
+        <li>Square Root</li>
         <li>If User Didn't Filled The Two Boxes It Gives Error: Please Input in The Box#:~</li>
         <li>No XSS Prompts :V </li>
     </ul>
