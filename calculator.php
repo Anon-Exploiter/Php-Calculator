@@ -107,10 +107,6 @@
 						die("<br><br>Please Enter The First Number ^_^");
 					}
 
-					if ($input_2 == null) {
-						die("<br><br>Please Enter The Second Number ^_^");
-					}
-
 					/*
 
 					if (strchr($input_1, "&gt;")) {
