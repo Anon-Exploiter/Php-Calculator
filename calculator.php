@@ -103,8 +103,12 @@
 					$input_2 = htmlspecialchars($_POST['second_input']);
 					$operator = $_POST['function'];
 
-					if (empty($input_1)) {
+					if ($input_1 == null) {
 						die("<br><br>Please Enter The First Number ^_^");
+					}
+
+					if ($input_2 == null) {
+						die("<br><br>Please Enter The Second Number ^_^");
 					}
 
 					if (strchr($input_1, "&gt;")) {
