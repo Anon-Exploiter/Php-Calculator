@@ -1,9 +1,9 @@
 <!--
-							An Easy Usage Calculator By An0n 3xPloiTeR ^_^ 
-							 Editing Author's Name Won't Make You One :D 
-							 	Its Not An Ordinary Calculator ^_^
-							 	    Its An0n 3xPloiTeR's Calc :)
-							  			~ An0n 3xPloiTeR
+				An Easy Usage Calculator By An0n 3xPloiTeR ^_^ 
+				 Editing Author's Name Won't Make You One :D 
+				 	Its Not An Ordinary Calculator ^_^
+				 	    Its An0n 3xPloiTeR's Calc :)
+				  			~ An0n 3xPloiTeR
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -59,6 +59,23 @@
 				border-style: groove;
 				background-color: #080510; 
 				font-size: 95%;
+			}
+			.footer {
+				left: 0px;
+				right: 0px;
+				bottom: 4px;
+				position: fixed;
+				text-align: center;
+				color: teal;
+				font-family: Comic Sans Ms;
+				font-size: 120%;
+			}
+			a {
+				text-decoration: none;
+				color: red;
+			}
+			a:hover {
+				color: lawngreen;
 			}
 		</style>
 	</head>
@@ -139,6 +156,15 @@
 					}
 				}
 			?>
+		</div>
+		<div class="footer">
+			<footer>
+				<hr>
+					<font>Developed By 
+						<a href="https://www.google.com/search?q=An0n 3xPloiTeR" target="_blank">An0n 3xPloiTeR</a>
+					</font>
+				<hr>
+			</footer><!--  Give a Visit :D  -->
 		</div>
 	</body>
 </html>
