@@ -75,6 +75,8 @@
 					<option>Subtract</option>
 					<option>Multiply</option>
 					<option>Divide</option>
+					<option>Square</option>
+					<option>Square Root</option>
 				</select><br><br>
 				<input type="submit" name="submit" value="Submit" />
 			</form>
@@ -87,19 +89,6 @@
 					if (empty($input_1)) {
 						die("<br><br>Please Enter The First Number ^_^");
 					}
-
-					if (empty($input_2)) {
-						die("<br><br>Please Enter The Second Number ^_^");
-					}
-
-					if (!is_numeric($input_1)) {
-						die("<br><br>I Created Calculator For Adding, Subtracting, Multiplying, Dividing Numbers Not Alphabets -_-");
-					}
-
-					if (!is_numeric($input_2)) {
-						die("<br><br>I Created Calculator For Adding, Subtracting, Multiplying, Dividing Numbers Not Alphabets -_-");
-					}
-s
 
 					if (strchr($input_1, "&gt;")) {
 						die("<br><br>You Aren't Allowed To Use > In The Please Of Number");
@@ -115,14 +104,6 @@ s
 
 					if (strchr($input_2, "&lt;")) {
 						die("<br><br>You Aren't Allowed To Use < In The Place Of Number");
-					}
-
-					if (strlen($input_1) < 9) {
-						die("<br><br>Go Buy A Calculator Please :/<br>Its A Free Calculator You Cant Use More then 9 Digits -_-");
-					}
-
-					if (strlen($input_2) < 9) {
-						die("<br><br>Go Buy A Calculator Please :/<br>Its A Free Calculator You Cant Use More then 9 Digits -_-");
 					}
 
 					switch ($operator) {
@@ -144,6 +125,16 @@ s
 						case 'Divide':
 							$divide = $input_1 / $input_2;
 							echo "<br><br>Result:<br>" . $divide;
+						break;
+
+						case 'Square':
+							$square = $input_1 * $input_1;
+							die("<br><br>Result:<br>" . $square);
+						break;
+
+						case 'Square Root':
+							$square_root = sqrt($input_1);
+							die("<br><br>Result:<br>" . $square_root);
 						break;
 					}
 				}
