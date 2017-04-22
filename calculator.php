@@ -1,15 +1,9 @@
-<!--
-				An Easy Usage Calculator By An0n 3xPloiTeR ^_^ 
-				 Editing Author's Name Won't Make You One :D 
-				 	Its Not An Ordinary Calculator ^_^
-				 	    Its An0n 3xPloiTeR's Calc :)
-				  			~ An0n 3xPloiTeR
--->
-<!DOCTYPE html>
+<!DOCTYPE html><?php // A Simple Calculator By An0n 3xPloiTeR ^_^ ?>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<title>An0n 3xPloiTeR's Calculator</title>
+		<meta name="author" content="An0n 3xPloiTeR, Syed Umar Arfeen" />
 		<style>
 			body {
 				background-color: #080510;
@@ -76,6 +70,12 @@
 			}
 			a:hover {
 				color: lawngreen;
+			}
+			input[type=number]::-webkit-inner-spin-button, 
+			input[type=number]::-webkit-outer-spin-button { 
+				-webkit-appearance: none; 
+				margin: 0; 
+			}
 			}
 		</style>
 	</head>
@@ -168,7 +168,8 @@
 						<a href="https://www.google.com/search?q=An0n 3xPloiTeR" target="_blank">An0n 3xPloiTeR</a>
 					</font>
 				<hr>
-			</footer><!--  Give a Visit :D  -->
+			</footer>
+<!--  Give a Visit :D  -->
 		</div>
 	</body>
 </html>
