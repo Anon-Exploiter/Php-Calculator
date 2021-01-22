@@ -1,4 +1,5 @@
 <center><h1>An0n 3xPloiTeR's Calculator</h1><br>
+		<h1>Version: 1.0.0</h1>
 <p>It Can Be Used For Adding, Subtracting, Multiplying, && Dividing ^_^<br>P.S ~ New Options Will Be Added In The New Update ^_^ <br></p>
 <h3>Working</h3><br>
 <p>
