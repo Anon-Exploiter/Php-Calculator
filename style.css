@@ -1,0 +1,71 @@
+body {
+    background-color: #080510;
+}
+.heading {
+    font-family: cursive;
+    font-size: 300%;
+    color: red;
+    text-align: center;
+}
+.calculator {
+    font-family: cursive;
+    font-size: 110%;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+}
+input {
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+    font-family: cursive;
+    border-left: #080510;
+    border-right: #080510;
+    border-style: groove;
+    background-color: #080510; 
+    font-size: 110%;
+}
+select {
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+    font-family: cursive;
+    border-left: #080510;
+    border-right: #080510;
+    border-style: groove;
+    background-color: #080510; 
+    font-size: 95%;
+}
+option {
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+    font-family: cursive;
+    border-left: #080510;
+    border-right: #080510;
+    border-style: groove;
+    background-color: #080510; 
+    font-size: 95%;
+}
+.footer {
+    left: 0px;
+    right: 0px;
+    bottom: 4px;
+    position: fixed;
+    text-align: center;
+    color: teal;
+    font-family: Comic Sans Ms;
+    font-size: 120%;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: lawngreen;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
